@@ -24,12 +24,13 @@ const Calculator = {
     return a / b;
   }
 };
-function actionApplyer(int,arr){
- let a=int
-   for (let i = 0; i < arr.length; i++ ){
-   return arr[i](a)
+let actionApplyer = function(start, ray) {
+  let a = start
+
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
   }
-  if(arr.length===0)  {
-    return int ;
-  }
+
+  return a
+}
 }
