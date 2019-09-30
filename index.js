@@ -25,6 +25,5 @@ const Calculator = {
   }
 }
 function actionApplyer(int,arr){
-  let arr=int
-  for 
+  for (let i=0;i<arr.lenght)
 }
