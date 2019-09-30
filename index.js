@@ -24,4 +24,6 @@ const Calculator = {
     return a / b;
   }
 }
-function 
+function actionApplyer(){
+  
+}
