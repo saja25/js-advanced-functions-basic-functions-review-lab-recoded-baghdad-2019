@@ -25,8 +25,10 @@ const Calculator = {
   }
 }
 function actionApplyer(int,arr){
+  if(arr.length>=0){
   for (let i=0;i<arr.length;i++){
     return a[i].int 
+  }
   }else {
     return int ;
   }
